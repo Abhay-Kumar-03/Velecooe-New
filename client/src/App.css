@@ -1,0 +1,684 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:  sans-serif;
+}
+
+.navbar {
+  background-color: #a35438;
+  color: #e6d0c9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  height: 115px;
+}
+
+.logo img {
+  height: 35px;
+  width: auto;
+  filter: brightness(0) invert(1);
+  margin-top: 20px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 50px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffd7c7;
+}
+
+
+.hero-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+/* About Section */
+.about-section {
+  background-color: #f5f5dc;
+  height: auto;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-title {
+  color: #a35439;
+  font-size: 80px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.about-content {
+  margin-top: 100px;
+  /* background-color: #a35438; */
+  display: flex;
+  width: 99%;
+  /* max-width: 1200px; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-text {
+  width: 58%;
+  font-size: 28px;
+  line-height: 1.8;
+  color: #757575;
+  margin-bottom: 40px;
+}
+
+.about-image img {
+  width: 450px;
+  height: 450px;
+  border-radius: 8px;
+}
+
+
+
+.more-button-container {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.more-button {
+  background-color: #f5f5dc;
+  color: #757575;
+  padding: 20px 60px;
+  font-size: 25px;
+  border: 1.2px solid #757575;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.more-button:hover {
+  background-color: #8e3f2c;
+}
+
+
+
+/* Technology Section */
+.tech-section {
+  background-color: #f5f5dc;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.tech-heading {
+  font-size: 69px;
+  color: #a35439;
+  margin-bottom: 40px;
+  margin-top: -40px;
+}
+
+.tech-paragraph {
+  font-size: 40px;
+  max-width: 1200px;
+  margin:50px auto 50px auto;
+  color: #757575;
+  line-height: 1.6;
+  /* background-color: #8e3f2c; */
+}
+
+.tech-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-top: 90px;
+  /* background-color: #8e3f2c; */
+}
+
+.tech-item {
+  width: 380px;
+  height: 350px;
+  text-align: center;
+}
+
+.tech-item img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.tech-caption {
+  margin-top: 30px;
+  font-size: 30px;
+  line-height: 40px;
+  color: #757575;
+  /* background-color: #a35438; */
+  max-width: 350px;
+}
+
+.tech-gallery-2 {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  /* background-color: #8e3f2c; */
+}
+
+.tech-paragraph-2 {
+  font-size: 40px;
+  max-width: 1200px;
+  margin:150px auto 50px auto;
+  color: #757575;
+  line-height: 1.6;
+  /* background-color: #8e3f2c; */
+  
+}
+
+
+
+
+
+/* Impact and Vision */
+.impact-section {
+  background-color: #f5f5dc;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.impact-heading {
+  margin-top: -70px;
+  font-size: 82px;
+  color: #a35439;
+  margin-bottom: 40px;
+}
+
+.impact-content {
+  /* background-color: #a35438; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 70px auto;
+  text-align: left;
+}
+
+.impact-image {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: -30px;
+}
+
+.impact-text {
+  color: #757575;
+  line-height: 1.6;
+  margin-left: 80px;
+}
+
+.impact-text-1 {
+  max-width: 800px;
+  font-size: 38px;
+  line-height: 1.6;
+  
+}
+
+.impact-text-2 {
+  
+  margin-top: 10px;
+  max-width: 650px;
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+
+
+/* Contact Us */
+.contact-section {
+  padding: 60px 20px;
+  background-color: #f5f5dc;
+}
+
+.contact-heading {
+  margin-top: -100px;
+  font-size: 72px;
+  color: #a35439;
+  text-align: center;
+}
+
+
+
+.contact-section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px; /* Gap between form and image */
+  background-color: #f5f5dc; /* Background color for the section */
+  padding: 20px;
+  height: 650px;
+}
+
+.contact-form-container {
+  flex: 1;
+  border: 1px solid #a35439;
+  margin-left: 120px; /* Margin from the left side */
+  padding: 25px;
+  border-radius: 8px;
+  background-color: #f5f5dc;
+  max-width: 450px;
+  max-height: 500px;
+}
+
+.form-label {
+  color: black; /* Color for the labels */
+  margin-bottom: 5px;
+  display: block; /* Make labels block elements */
+}
+
+.form-input, .form-textarea {
+  width: calc(100% - 20px); /* Full width minus padding */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #fffff0;
+  border-radius: 4px;
+}
+
+.form-input{
+  background-color: #fffff0;
+}
+
+.form-textarea {
+  height: 150px;
+  background-color: #fffff0;
+}
+
+.submit-button {
+  padding: 15px; /* Increased padding for a longer button */
+  background-color: #a35439; /* Color for the submit button */
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 100%; /* Make the button full width */
+}
+
+
+.contact-image-container {
+  flex: 1;
+}
+
+.contact-image {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  height: auto;
+  background-color: #a35439;
+  color: white;
+}
+
+.footer-top {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 60px;
+  /* background-color: #f5f5dc; */
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  margin-left: 0;
+  gap: 20px;
+  display: flex;
+  flex: 1;
+}
+
+
+
+.footer-columns {
+  display: flex;
+  gap: 140px;
+  flex-wrap: wrap;
+  flex: 3;
+}
+
+.footer-column h4 {
+  font-size: 20px;
+  margin-bottom: 28px;
+  font-weight: 600;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column li {
+  font-size: 20px;
+  margin-bottom: 15px;
+  cursor: pointer;
+
+}
+
+.footer-column li:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #f5f5dc;
+  padding: 15px 20px;
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+/* 
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 0;
+  }
+
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-text {
+    width: 90%;
+    font-size: 24px;
+  }
+
+  .about-image img {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .tech-gallery,
+  .tech-gallery-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tech-item {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .impact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .impact-image {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .contact-section-1 {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .contact-form-container {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 50px;
+  }
+
+  .tech-heading {
+    font-size: 50px;
+  }
+
+  .impact-heading {
+    font-size: 50px;
+  }
+
+  .contact-heading {
+    font-size: 50px;
+  }
+
+  .footer-column h4 {
+    font-size: 18px;
+  }
+
+  .footer-column li {
+    font-size: 18px;
+  }
+
+  .more-button {
+    padding: 15px 40px;
+    font-size: 20px;
+  }
+} */
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 0;
+  }
+
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-text {
+    width: 90%;
+    font-size: 24px;
+  }
+
+  .about-image img {
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .tech-gallery,
+  .tech-gallery-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tech-item {
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .impact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .impact-image {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .contact-section-1 {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .contact-form-container {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title,
+  .tech-heading,
+  .impact-heading,
+  .contact-heading {
+    font-size: 50px;
+  }
+
+  .footer-column h4,
+  .footer-column li {
+    font-size: 18px;
+  }
+
+  .more-button {
+    padding: 15px 40px;
+    font-size: 20px;
+  }
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+    padding: 10px 20px; /* Adjust padding */
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .nav-links {
+    flex-direction: column; /* Stack links vertically */
+    gap: 10px; /* Add some space between links */
+    margin-right: 0; /* Remove right margin */
+    width: 100%; /* Make nav links take full width */
+  }
+
+  .nav-links li {
+    width: 100%; /* Make each link take full width */
+    text-align: center; /* Center align text */
+  }
+
+  .nav-links li a {
+    display: block; /* Make links block elements */
+    padding: 10px; /* Add padding for better touch targets */
+    font-size: 18px; /* Adjust font size if needed */
+  }
+}
+
+.submissions-section {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.submissions-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.submissions-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.submission-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submission-card h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.submission-card p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.submission-card small {
+  color: #999;
+  font-size: 0.8rem;
+}
