@@ -1,11 +1,12 @@
-import dotenv from "dotenv";
-dotenv.config();
+import { config } from "dotenv";
 import express from 'express';
 import Contact from './models/Contact.js';
 import cors from 'cors';
 import connectToDb from "./db/db.js";
 
 const app = express();
+
+config({ path: "./config/config.env" });
 
 connectToDb();
 
